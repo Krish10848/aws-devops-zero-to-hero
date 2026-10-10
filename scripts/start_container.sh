@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-docker push krish10848/aws-sample-application:tagname
+docker push krish10848/aws-sample-application
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 krish10848/aws-sample-application:tagname
+docker run -d -p 5000:5000 krish10848/aws-sample-application
